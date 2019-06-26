@@ -16,6 +16,7 @@ __navbar = dbc.NavbarSimple(
 )
 
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.MATERIA])
+server = app.server
 
 app.layout = html.Div([__navbar])
 
