@@ -18,6 +18,7 @@ __navbar = dbc.NavbarSimple(
 app = dash.Dash(__name__, external_stylesheets=[dbc.themes.MATERIA])
 server = app.server
 
+app.title = "Eng | Budget Monitoring"
 app.layout = html.Div([__navbar])
 
 if __name__ == "__main__":
