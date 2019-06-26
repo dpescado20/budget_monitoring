@@ -20,5 +20,5 @@ app = dash.Dash(__name__, external_stylesheets=[dbc.themes.MATERIA])
 app.layout = html.Div([__navbar])
 
 if __name__ == "__main__":
-    app.run_server()
-    # app.run_server(debug=True)
+    # app.run_server()
+    app.run_server(debug=True)
